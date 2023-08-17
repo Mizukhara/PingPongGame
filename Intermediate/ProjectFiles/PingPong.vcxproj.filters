@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PingPong.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D6AAD33F-C9B0-43D9-9D82-266BD8714449}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PingPong.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PingPongEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{ECDD899E-0D8D-4E7B-B1D9-6F0919FAB1F3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PingPong">
+      <UniqueIdentifier>{D33922CA-2612-41EE-90BF-37B4E0F683D5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PingPong\PingPong.Build.cs">
+      <Filter>Source\PingPong</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PingPong\PingPong.cpp">
+      <Filter>Source\PingPong</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PingPong\PingPong.h">
+      <Filter>Source\PingPong</Filter>
+    </ClInclude>
+    <Filter Include="Source\PingPong\Private">
+      <UniqueIdentifier>{FC2A2D1D-7EC2-4A4B-AA9B-BB668210CBBA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PingPong\Private\PingPongBall.cpp">
+      <Filter>Source\PingPong\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PingPong\Private\PingPongPawn.cpp">
+      <Filter>Source\PingPong\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PingPong\Private\PingPongPlayerController.cpp">
+      <Filter>Source\PingPong\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\PingPong\Public">
+      <UniqueIdentifier>{08A744B5-7023-4B55-A0FD-90BCCFEA3AF3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PingPong\Public\PingPongBall.h">
+      <Filter>Source\PingPong\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PingPong\Public\PingPongPawn.h">
+      <Filter>Source\PingPong\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PingPong\Public\PingPongPlayerController.h">
+      <Filter>Source\PingPong\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

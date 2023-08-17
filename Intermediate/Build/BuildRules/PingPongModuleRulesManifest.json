@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\projects\\PingPongGame\\Source\\PingPong\\PingPong.Build.cs",
+		"D:\\projects\\PingPongGame\\Source\\PingPong.Target.cs",
+		"D:\\projects\\PingPongGame\\Source\\PingPongEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
